@@ -1,0 +1,51 @@
+{
+  "document": {
+    "type": "editor",
+    "children": [
+      {
+        "type": "text",
+        "attributes": { "subtype": "heading", "heading": "h1" },
+        "delta": [{ "insert": "Horizontal Rule" }]
+      },
+      {
+        "type": "text",
+        "delta": [
+          { "insert": "Here's the showcase for the " },
+          { "insert": "plugin", "attributes": { "bold": true } },
+          { "insert": " of " },
+          { "insert": "horizontal rule", "attributes": { "code": true } },
+          { "insert": "." }
+        ]
+      },
+      { "type": "horizontal_rule" },
+      { "type": "text", "delta": [] },
+      {
+        "type": "text",
+        "delta": [
+          { "insert": "Here's the showcase for the s" },
+          {
+            "insert": "election (or slash) menu item",
+            "attributes": { "bold": true }
+          },
+          { "insert": " for " },
+          { "insert": "horizontal rule", "attributes": { "code": true } },
+          { "insert": "." }
+        ]
+      },
+      { "type": "text", "delta": [{ "insert": "/" }] },
+      { "type": "text", "delta": [] },
+      {
+        "type": "text",
+        "delta": [
+          { "insert": "Here's the showcase for the " },
+          { "insert": "shortcut event", "attributes": { "bold": true } },
+          { "insert": " for " },
+          { "insert": "horizontal rule", "attributes": { "code": true } },
+          { "insert": "." }
+        ]
+      },
+      { "type": "text", "delta": [{ "insert": "---" }] },
+      { "type": "text", "delta": [{ "insert": "" }] }
+    ]
+  }
+}

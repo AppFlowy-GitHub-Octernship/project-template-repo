@@ -1,9 +1,12 @@
+import 'dart:convert';
+
 import 'package:appflowy_editor_plugin_template/plugins/horizontal_rule_widget_builder.dart';
 import 'package:appflowy_editor_plugin_template/selection_menu_items/horizaontal_rult_menu_item.dart';
 import 'package:appflowy_editor_plugin_template/shortcut_events/horizaontal_rule_shortcut_event.dart';
 import 'package:appflowy_editor_plugin_template/theme/editor_style.dart';
 import 'package:flutter/material.dart';
 import 'package:appflowy_editor/appflowy_editor.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
@@ -55,10 +58,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   var editorState = EditorState.empty();
 
-  void _reloadEditor() {
-    setState(() {
-      editorState = EditorState.empty();
-    });
+  @override
+  void initState() {
+    super.initState();
+    _refreshEditorState();
   }
 
   @override
@@ -71,11 +74,24 @@ class _MyHomePageState extends State<MyHomePage> {
         editorState: editorState,
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _reloadEditor,
+        onPressed: _refreshEditorState,
         tooltip: 'Reload Editor',
         child: const Icon(Icons.refresh),
       ),
     );
+  }
+
+  Future<void> _refreshEditorState() async {
+    final readme = await rootBundle.loadString('assets/README.json');
+    setState(() {
+      editorState = EditorState(
+        document: Document.fromJson(
+          Map<String, dynamic>.from(
+            json.decode(readme),
+          ),
+        ),
+      );
+    });
   }
 }
 
