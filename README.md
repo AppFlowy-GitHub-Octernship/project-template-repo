@@ -91,7 +91,7 @@ Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-st
 
 #### Getting Started
 
-This project is a starting point for a AppFlowy editor plugin sample.
+This project is a starting point for an AppFlowy editor plugin.
 
 ```bash
 # Please make sure the version of your flutter is 3.3.10
@@ -99,9 +99,9 @@ flutter pub get
 flutter run
 ```
 
-* [horizontal_rule_widget_builder](./lib/plugins/horizontal_rule_widget_builder.dart) is for reference to how to create a plugin.
-* [horizontal_rule_menu_items](./lib/selection_menu_items/horizaontal_rult_menu_item.dart) is for reference to how to add a new menu item to selection menu(slash menu).
-* [horizontal_rule_shortcut_event](./lib/shortcut_events/horizaontal_rule_shortcut_event.dart) is for reference to how to add a new shortcut to insert a horizontal rule.
+* [horizontal_rule_widget_builder](./lib/plugins/horizontal_rule_widget_builder.dart) illustrates how to create a plugin.
+* [horizontal_rule_menu_items](./lib/selection_menu_items/horizaontal_rult_menu_item.dart) illustrates how to add a new menu item to selection menu(slash menu).
+* [horizontal_rule_shortcut_event](./lib/shortcut_events/horizaontal_rule_shortcut_event.dart) illustrates how to add a new shortcut to insert a horizontal rule.
 
 
 https://user-images.githubusercontent.com/11863087/220231988-b661ea91-854c-495a-b33c-bcb8c60c724d.mov
