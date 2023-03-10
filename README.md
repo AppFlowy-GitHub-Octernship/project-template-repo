@@ -94,7 +94,7 @@ Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-st
 This project is a starting point for an AppFlowy editor plugin.
 
 ```bash
-# Please make sure the version of your flutter is 3.3.10
+# Please make sure the version of your flutter is above 3.7.0
 flutter pub get
 flutter run
 ```
@@ -105,6 +105,3 @@ flutter run
 
 
 https://user-images.githubusercontent.com/11863087/220231988-b661ea91-854c-495a-b33c-bcb8c60c724d.mov
-
-
-
