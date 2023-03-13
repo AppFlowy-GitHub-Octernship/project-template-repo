@@ -37,7 +37,7 @@ Check out [projects](https://appflowy.gitbook.io/docs/essential-documentation/co
 
 ### Octernship role description
 
-- The GitHub Classroom assignment submission date should be specified in your project proposal.
+- The GitHub Classroom assignment submission deadline is March 30, 2023
 - Length of the Octernship: 6 weeks or 12 weeks depended on your project scope
 - Monthly Stipend: 600 USD
 
