@@ -59,37 +59,30 @@ To participate, you must be:
 
 # Assignment
 
-## Please select an unclaimed task under the Desktop Features section from [Project Ideas](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy/appflowy-mentorship-program/mentorship-2022/project-ideas)
+## Task instructions
 
-### Task instructions
+You are required to implement a divider plugin that allows the user to insert a divider into the document.
+* Users should be able to insert a divider by:
+    * Typing `~~~` to insert a wavy line
+    * Typing `===` to insert a double solid line
+    * Typing `***` to insert a dotted line
+* Users should be able to insert a divider using the slash menu.
+    * Typing `/divider` and pressing `enter` to insert the divider.
 
-Work with your assigned mentor to publish your project doc to [AppFlowy Documentation](https://appflowy.gitbook.io/docs/essential-documentation/readme)
+## Task Expectations
 
-Your project doc should include:
-- The problem
-- The solution
-- Goals
-- Implementation design
-- Timeline
-- Risks & Mitigation
+* You need to consider how to move the cursor to the appropriate position after inserting a divider.
+* You need to ensure the correctness of inserting a divider, including checking user input and inserting the divider at the correct position.
+* Make sure to include widget tests or integration tests in your codebase to ensure that your code coverage reaches at least 90%.
 
-More details can be found [here](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy/appflowy-mentorship-program/proposal-template)
+## Task submission
+* Write code that implements the requirements above
+* Submit changes to the feedback branch 
+* And leave a comment with a recorded video to demo your work
 
-### Task Expectations
+## Reference
 
-- Deliver your solution outlined in your project doc
-
-### Task submission
-
-Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) when working on their project.
-
-1. Making changes on the auto generated `feedback` branch to complete the task
-2. Using the auto generated **Feedback Pull Request** for review and submission
-3. Using GitHub Discussions to ask any relevant questions regarding the project
-
-### Resources
-
-#### Getting Started
+### Getting Started
 
 This project is a starting point for an AppFlowy editor plugin.
 
