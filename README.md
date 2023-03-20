@@ -15,13 +15,13 @@ AppFlowy is built with Flutter and Rust, an interesting tech stack with a lot of
 
 An Octernship with AppFlowy is aimed at creating a hands-on learning opportunity for new developers who may otherwise lack the opportunity to gain exposure to real-world software practice and entry to the technical community.
 
-Benefits for Students:
+Benefits for students:
 - Students gain exposure to real-world software development and entry to the open-source community.
 - Students become more competitive in the job market by having more meaningful software development experience.
 - Students have hands-on opportunities to do work related to their professional interests and to further the pursuit of their interests.
 - Students expand their professional network by getting involved in the community and meeting other awesome contributors.
 
-Program Structure:
+Program structure:
 
 You will develop both hard and soft skills required for a software engineer in the real world throughout the program.
 
@@ -34,6 +34,8 @@ The program will provide you with the opportunity to:
 - Write an article related to your project and get it published to our newsletter - AppFlowy Binary
 
 Check out [projects](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy/appflowy-mentorship-program/mentorship-2022) our mentees are working on
+
+If you are selected into our internship program, you will be asked to select an unclaimed task under the Desktop Features section from [Project Ideas](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy/appflowy-mentorship-program/mentorship-2022/project-ideas) and then submit a [project proposal](https://github.com/AppFlowy-GitHub-Octernship/project-template-repo/blob/main/project-proposal.md) to kick off your internship.
 
 ### Octernship role description
 
@@ -55,9 +57,7 @@ To participate, you must be:
 
 * Active contributor on GitHub (monthly)
 
-* Please select an unclaimed task under the Desktop Features section from [Project Ideas](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy/appflowy-mentorship-program/mentorship-2022/project-ideas) and then submit a [project proposal](https://github.com/AppFlowy-GitHub-Octernship/project-template-repo/blob/main/project-proposal.md) when applying via GitHUb Octernship
-
-# Assignment
+# Assignment for the applicants
 
 ## Task instructions
 
@@ -69,7 +69,7 @@ You are required to implement a divider plugin that allows the user to insert a 
 * Users should be able to insert a divider using the slash menu.
     * Typing `/divider` and pressing `enter` to insert the divider.
 
-## Task Expectations
+## Task expectations
 
 * You need to consider how to move the cursor to the appropriate position after inserting a divider.
 * You need to ensure the correctness of inserting a divider, including checking user input and inserting the divider at the correct position.
@@ -82,7 +82,7 @@ You are required to implement a divider plugin that allows the user to insert a 
 
 ## Reference
 
-### Getting Started
+### Getting started
 
 This project is a starting point for an AppFlowy editor plugin.
 
